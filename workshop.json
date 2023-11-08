@@ -1,7 +1,8 @@
 {
-  "WorkshopId": 2719193441,
+  "WorkshopId": 3071598464,
   "Title": "Hulking Armor",
-  "Description": "WIP",
+  "Description": "A massive suit of armor strides into town. It approaches the local leader, exchanges a few words, and marches back onto the world to continue its eternal crusade against those it deems have nullified the gift of life.",
   "Tags": "",
-  "Visibility": "0"
+  "Visibility": "2",
+  "ImagePath": "preview.png"
 }

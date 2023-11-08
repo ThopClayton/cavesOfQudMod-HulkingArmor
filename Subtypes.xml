@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <subtypes>
-  <class ID="Callings" Load="merge">
-
+  <class ID="Castes" ChargenTitle="choose caste" SingularTitle="caste" StatBoxDisplay="true">
+    <category Name="Husks" DisplayName="&amp;KForgotten Armor, Moving of Its Own Will" Load="merge">
       <subtype Name="Hulking Armor" Code="e" Gear="StartingGear_HulkingArmor" Tile="creatures/HulkingArmor.png" DetailColor="w">
         <stat Name="Strength" Bonus="2" />
         <stat Name="Toughness" Bonus="2" />
         <stat Name="Agility" Bonus="-2" />
-        <stat Name="Ego" Bonus="-1" />
+        <stat Name="HeatResistance" Bonus="15" />
+        <stat Name="ColdResistance" Bonus="15" />
         <skills>
           <skill Name="LongBlades" />
           <skill Name="LongBladesProficiency" />
           <skill Name="HeavyWeapons_Tank"/>
         </skills>
+        <savemodifiers>
+          <savemodifier Vs="Bleeding" Amount="3" />
+        </savemodifiers>
+        <extrainfo>Your body has withered to almost nothingness. Your oath alone gives you life.</extrainfo>
         <extrainfo>Few starting items</extrainfo>
       </subtype>
-
+    </category>
   </class>
-</subtypes>
+
+
+
+
